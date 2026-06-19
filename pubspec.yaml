@@ -1,0 +1,57 @@
+name: ssh_client
+description: Cross-platform SSH client for Desktop and Android
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # SSH
+  dartssh2: ^2.9.0
+
+  # State management
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+
+  # Storage
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0       # Desktop SQLite support
+  path: ^1.8.3
+  flutter_secure_storage: ^9.0.0
+
+  # Encryption
+  encrypt: ^5.0.3
+  crypto: ^3.0.3
+
+  # Terminal
+  xterm: ^4.0.0
+
+  # File picker (SSH keys)
+  file_picker: ^6.1.1
+
+  # UI
+  google_fonts: ^6.1.0
+
+  # Utils
+  uuid: ^4.2.1
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  open_file_plus: ^3.4.1+1
+  window_manager: ^0.4.3
+  url_launcher: ^6.1.14
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icon/
