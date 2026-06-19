@@ -1,6 +1,6 @@
 # Promplity Client
 
-**Free and open-source SSH/SFTP client for Windows, Linux, and macOS.**
+**Free and open-source SSH/SFTP client for Windows.**
 
 ![Version](https://img.shields.io/badge/version-0.0.1-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -250,7 +250,7 @@ This software is provided "as is", without warranty of any kind. The author is n
 
 ## О проекте
 
-**Бесплатный open-source SSH/SFTP клиент для Windows, Linux и macOS.**
+**Бесплатный open-source SSH/SFTP клиент для Windows.**
 
 Promplity Client — лёгкий, бы функциональный SSH/SFTP клиент на Flutter. Современный интерфейс для управления удалёнными серверами, передачи файлов и выполнения команд — всё в одном приложении.
 
